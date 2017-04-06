@@ -16,8 +16,13 @@
 <h3> Additional Feature Description </h3>
 <p>The three new features suggested by me will add value to the analysis by way of knowing any repeated attempts to break the security (Feature 5 -blocked_users.txt), pages which have problems in getting loaded (Feature 6-load_failed_pages.txt) and also know the most popular resources/pages and add more relevant content to these (Feature 7-top_hit_pages.txt).</p>
 <h5> Feature 5 - Blocked Users
-<p> Extending the Blocked User Logs of Feature 4, it is essential to also find the hosts who frequently try to make unauthorized access to the website. Filename: blcoked-users.txt</p>
-<h5> Feature 6 - 
+<p> Extending the Blocked User Logs of Feature 4, it is essential to also find the hosts who frequently try to make unauthorized access to the website. Filename: blocked-users.txt</p>
+<h5> Feature 6 - Pages which Failed to Load
+<p> Certain pages are very frequently accessed but fail to load. Fixing these pages may be essential for users to access them.
+Filename: load_failed_pages.txt
+<h5> Feature 7 - Top Hit Pages </h5>
+<p> Certain pages are more frequently accesses by the users during a specific period. So these details can help NASA engineers in understanding the traffic flow.</p>
+
 <p> However a much deeper analysis can be done by identifying, analysis of the originating country/location of Host/IP Address in spite of masking and correlate them with IP addresses of Blocked and failed attempts. </p>
 
 <h3>Implementation</h3>

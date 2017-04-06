@@ -4,6 +4,10 @@
 <li> The code has been developed in Python (2.7) and uses Pandas (0.14.1 and higher) 
 <li> Run the "run.sh" file. The input folder and file name is explicitly specified in the "run.sh" file. The output folder is specified.
 <li> The Unit Test cases have been written in "unit_test_cases.py" file
+<li> The run time is also printed when you execute the "run.sh" file.
+
+<h3>Assumptions</h3>
+<l1>For Feature 2, the URL's have been parsed and the "GET/POST/HTTP" version parameters have been removed before finding their bandwidth. <li>The "/" file in the output is probabaly an extension to the base URL. So it hasn't been removed. 
 
 <h3>Overview</h3>
 <p>Using the dataset provided for analysis we are able get a bird’s eye-view of the subject web-site whose files have been provided. From data extracted using the features, we can reasonably surmise about traffic, most visited pages and any fraudulent attempt to use the site. The four features together will help team to decide about future needs of bandwidth, content and server capacity to handle the traffic as well as additional security features that need to be in place.</p>
@@ -13,4 +17,6 @@
 <p> However a much deeper analysis can be done by identifying, analysis of the originating country/location of Host/IP Address in spite of masking and correlate them with IP addresses of Blocked and failed attempts. </p>
 
 <h3>Implementation</h3>
-<p>The code has been developed in Python and used Pandas (0.14.1 and higher). I have used lambda functions internally and implemented priority queues for tuples. This has reduced the run time and space by almost 70%. </p>
+<p>The code has been developed in Python and used Pandas (0.14.1 and higher). I have used lambda functions internally and implemented priority queues for tuples. This has reduced the run time and space by almost 70%. Pandas library was used for grouping together the timestamps for Feature 3. This was used because it gave the shortest run time when compared to other data structures for the larger dataset.  </p>
+
+ 

@@ -1,2 +1,10 @@
+/images/NASA-logosmall.gif
+/images/KSC-logosmall.gif
+/images/USA-logosmall.gif
+/images/launch-logo.gif
+/images/MOSAIC-logosmall.gif
 /login
-/shuttle/countdown/liftoff.html
+/images/ksclogo-medium.gif
+/images/WORLD-logosmall.gif
+/shuttle/countdown/
+/history/apollo/images/apollo-logo1.gif

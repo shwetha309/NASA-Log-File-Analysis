@@ -1,7 +1,7 @@
 <h1> Insight Coding Data Challenge</h1>
 <p>The detailed description of the coding problem can be found in the Instructions document.</p>
 <h3> Instructions to run the file and additional libraries</h3>
-<li> The code has been developed in Python and uses Pandas (0.14.1 and higher) 
+<li> The code has been developed in Python (2.7) and uses Pandas (0.14.1 and higher) 
 <li> Run the "run.sh" file. The input folder and file name is explicitly specified in the "run.sh" file. The output folder is specified.
 <li> The Unit Test cases have been written in "unit_test_cases.py" file
 

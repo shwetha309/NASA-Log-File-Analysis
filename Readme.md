@@ -2,7 +2,7 @@
 <p>The detailed description of the coding problem can be found in the Instructions document.</p>
 <h3> Instructions to run the file and additional libraries</h3>
 <li> The code has been developed in Python (2.7) and uses Pandas (0.17.1 and higher). This version of Pandas was chosen as it has maximum efficiency for sorting based on indices which is essential for Feature 3
-<li> To install higher version of pandas in Ubuntu pip install --upgrade pandas
+<li> To install higher version of pandas in Ubuntu "pip install --upgrade pandas"
 <li> Run the "run.sh" file. The input folder and file name is explicitly specified in the "run.sh" file. The output folder is specified.
 <li> The Unit Test cases have been written in "unit_test_cases.py" file
 <li> The run time is also printed when you execute the "run.sh" file.

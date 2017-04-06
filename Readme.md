@@ -17,7 +17,7 @@
 <p>The three new features suggested by me will add value to the analysis by way of knowing any repeated attempts to break the security (Feature 5 -blocked_users.txt), pages which have problems in getting loaded (Feature 6-load_failed_pages.txt) and also know the most popular resources/pages and add more relevant content to these (Feature 7-top_hit_pages.txt).</p>
 <h5> Feature 5 - Blocked Users</h5>
 <p> Extending the Blocked User Logs of Feature 4, it is essential to also find the hosts who frequently try to make unauthorized access to the website. Filename: blocked-users.txt</p>
-<h5> Feature 6 - Pages which Failed to Load
+<h5> Feature 6 - Pages which Failed to Load </h5>
 <p> Certain pages are very frequently accessed but fail to load. Fixing these pages may be essential for users to access them.
 Filename: load_failed_pages.txt
 <h5> Feature 7 - Top Hit Pages </h5>
